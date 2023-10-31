@@ -36,12 +36,10 @@ body {
     color: #E5E7EB;
     margin-bottom: 5px;
   }
-
   .header-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-
   }
    ul {
     display: flex;
@@ -52,16 +50,20 @@ body {
     text-decoration: none;
     color: rgb(208, 207, 207);
   }
-  img {
-    /* width: 500px; */
+  img.main {
+    width: 100%;
+    max-width: 800px;
+    max-height: 300px;
+    height: auto;
   }
   button {
     background-color: #3882F6;
-    border: 1px solid white;
+    border: none;
     border-radius: 8px;
     color: white;
     padding: 8px 20px;
     font-weight: 600;
+    cursor: pointer;
   }
   .main-content {
     display: flex;
@@ -82,14 +84,16 @@ body {
     padding: 50px 100px;
   }
   .pair {
-    /* display: flex; */
-    /* flex-direction: column; */
     text-align: center;
   }
   .pair .text {
     color: rgb(208, 207, 207);
     font-size: 18px;
     margin-bottom: 5px;
+  }
+  img.icon {
+    width: 100px;
+    height: 100px;
   }
   .quote {
     display: flex;
@@ -113,7 +117,6 @@ body {
     color: #E5E7EB;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
     display: flex;
-    /* flex-direction: column; */
     gap: 16px;
     padding: 40px;
     align-self: center;
@@ -133,6 +136,8 @@ body {
     width: 100px;
     height: 30px;
     align-self: center;
+    cursor: pointer;
+    border: 1px solid white;
   }
   .footer {
     justify-content: center;
