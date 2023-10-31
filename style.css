@@ -10,9 +10,9 @@ body {
     display: flex;
     background-color: #1f2937;
   }
-  .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+  img.logo {
+    width: 100px;
+    height: 100px;
     align-self: center;
   }
   .header{
@@ -109,6 +109,7 @@ body {
   .author {
     margin-right: 80px;
     font-weight: 800;
+    font-size: 25px;
   }
   .modal {
     background: #3882F6;
