@@ -27,9 +27,8 @@ body {
     flex: 1;
   }
   .hero {
-    font-size: 48px;
+    font: 800 48px sans-serif;
     color: #F9FAF8;
-    font-weight: 800;
   }
   .head-content .text {
     font-size: 18px;
@@ -72,8 +71,7 @@ body {
     margin: 20px;
   }
   .title {
-    font-size: 36px;
-    font-weight: 800;
+    font: 800 36px sans-serif;
     color: #1F2937;
     align-self: center;
   }
@@ -104,17 +102,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    font-size: 36px;
+    font: 300 36px sans-serif;
     font-style: italic;
-    font-weight: 300;
     color: #1f2937;
     align-items: flex-end;
     padding: 100px;
   }
   .author {
     margin-right: 80px;
-    font-weight: 800;
-    font-size: 25px;
+    font: 800 25px Serif;
   }
   .modal {
     background: #3882F6;
@@ -135,8 +131,7 @@ body {
     flex-shrink: 1;
   }
   .modal-head {
-    font-size: 25px;
-    font-weight: 800;
+    font: 800 25px sans-serif;
   }
   .modal-button{
     width: 100px;
